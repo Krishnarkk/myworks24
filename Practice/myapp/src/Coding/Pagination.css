@@ -1,0 +1,24 @@
+.products{
+    margin: 20px;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.productsSingle{
+    /* height: 250px; */
+    padding:50px;
+    text-align: center;
+    border: 5px;
+    background-color: rgba(195, 224, 8, 0.978);
+    box-shadow: 5px 5px 10px rgb(129, 189, 200);
+    border-radius: 6px;
+}
+
+.productsSingle > img{
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  margin-bottom: 4px;
+}

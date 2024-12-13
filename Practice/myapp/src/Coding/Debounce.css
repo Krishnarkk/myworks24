@@ -1,0 +1,38 @@
+.inputCont{
+width: 50%;
+    padding: 11px;
+    position: relative;
+    outline: none;
+    left: 10%;
+    border: none;
+    /* border-radius: 5px; */
+    border-bottom: 2px solid green;
+}
+table, th, td {
+    border: 1px solid;
+  }
+  th{
+    background-color: #aa4c04;
+    color: white;
+  }
+  th, td , tr {
+    padding: 25px;
+    text-align: left;
+
+  }
+  tr{
+    padding: 16px;
+  }
+  tr:hover {background-color: coral;}
+
+  
+   td{
+    text-align: center;
+   }
+  
+  table{
+    position: relative;
+    left: 10%;
+    border-collapse: collapse;
+    margin:52px;
+  }

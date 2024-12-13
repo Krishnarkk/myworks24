@@ -1,0 +1,54 @@
+space complexity : the amount of memory used by algorithm or a program during its execution
+
+time complexity : the amount of time takes by algorithm or program to complete execution  
+                 or 
+ Time complexity quantifies the relationship between the running time of an algorithm and the size of the input it operates on, regardless of the kind of machine it runs on. 
+
+
+render =>Time Complexity --> O(n) --> having ul and li so runs for every element
+         Space Complexity --> O(n) --> 
+
+
+Time Complexity 
+ if one loop ==> O(n) 
+    two loop within function ==> O(arr1.length+arr2.length)
+    nested loops ==> O(n^2)
+
+Space complexity 
+     if no calculations means just O(1) constant
+     if returning something doing calculation O(n)
+     if returns exponential means O(n^2)
+  
+
+
+Big-O notation is the language we use for talking about how long an algorithm takes to run (time complexity) or how much memory is used by an algorithm (space complexity).
+
+
+constant O(1)
+linear time O(n)
+quadratic time O(n^2)
+exponential time O(2^n)
+Factorial time O(n!)
+Linearthimic time O(n log n)
+
+
+Constant Time: O(1)— The algorithm takes the same amount of time regardless of the input size. For example, accessing an element in an array by index, or determine the parity of a number.
+function isEvenOrOdd(n) {
+  return n % 2 ? 'Odd' : 'Even';
+}
+console.log(isEvenOrOdd(10)); // => Even
+console.log(isEvenOrOdd(10001)); // => Odd
+
+
+Logarithmic Time: O(log n) — The runtime grows logarithmically (at a decreasing rate) as the input size increases. Common in “divide-and-conquer” algorithms like binary search, which divide your sorted array based on the target value.   
+
+Linear Time: O(n) — The runtime increases linearly with the input size. For example, iterating through an array.
+By using a single loop, we can say that our function performs O(n) operations, where n represents the length of the input array.
+
+Linearithmic Time: O(n log n) — A combination of linear time O(n) and logarithmic time O(log n). The runtime grows in proportion to n multiplied by the logarithm of n. Common in sorting algorithms like merge sort and quicksort.
+
+Quadratic Time: O(n^2)— The runtime grows quadratically with the input size. Common in nested loops.
+
+Exponential Time: O(2^n) — Commonly associated with algorithms that involve recursive branching. The number of recursive calls doubles with each additional element in the input array. As a result, the runtime grows exponentially with the input size, leading to significant performance degradation for larger inputs.
+
+
