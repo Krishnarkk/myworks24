@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube+Iframe</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      h1 {
+        text-decoration: underline;
+      }
+      audio {
+        margin-top: 52px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Embeded YouTube video</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/_GTMOmRrqkU?si=pkO1XR67Ms7H8OEV"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <audio src="./sony.mp3" controls></audio>
+  </body>
+</html>

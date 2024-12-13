@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table {
+    width: 80%; 
+    margin: 20px; 
+    box-shadow: 0 2px 10px rgba(3, 225, 159, 0.1);
+}
+
+th, td {
+    padding: 12px 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+}
+
+th {
+    background-color: #f4f4f4; 
+    font-weight: bolder;
+}
+
+tr:hover {
+    background-color: #f1f1f1; 
+}
+
